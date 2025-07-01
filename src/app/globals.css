@@ -1,7 +1,13 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --color-cream: #FDFBD4;
+  --color-gold: #BDB96A;
+  --color-lavender: #C1BFFF;
+  --color-purple: #CF6DFC;
+  --background: var(--color-lavender);
   --foreground: #171717;
 }
 
